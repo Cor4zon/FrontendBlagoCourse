@@ -1,0 +1,80 @@
+.fon1 {
+    background-image: url("heroimage.png");
+    width: 1440px;
+    height: 800px;
+}
+.im1Fon1 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 165px;
+    top: 50px;
+}
+.im2Fon1 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 189px;
+    top: 50px;
+}
+.Ob1Fon1 {
+    position: absolute;
+    height: 64px;
+    width: 742px;
+    left: 533px;
+    top: 55px;
+}
+.Ob2Fon1 {
+    position: absolute;
+    height: 179px;
+    width: 556px;
+    left: 175px;
+    top: 322px;
+}
+.Spis1Fon1 {
+    font-size: 14px;
+    color: white;
+    display: inline;
+}
+.im3Fon1 {
+    display: block;
+    position: absolute;
+    bottom: 127px;
+    left: 24px;
+}
+.im4Fon1 {
+    display: block;
+    position: absolute;
+    bottom: 37px;
+    left: 0px;
+}
+.im5Fon1 {
+    display: block;
+    position: absolute;
+    left: 96px;
+    bottom: 12px;
+    height: 2px;
+    width: 61px;
+}
+.im6Fon1 {
+    display: block;
+    position: absolute;
+    left: 165px;
+    bottom: 0px;
+}
+.im7Fon1 {
+    display: block;
+    position: absolute;
+    left: 342px;
+    bottom: 12px;
+    height: 2px;
+    width: 61px;
+}
+.btn1Fon1 {
+    position: absolute;
+    width: 137px;
+    height: 47px;
+    left: 356px;
+    top: 522px;
+    background-color: #FF7400;
+}
