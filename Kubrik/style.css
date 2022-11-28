@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:#575445;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+
+
+
+}
+
+h1, h2, h3, h4, blockquote {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* header  */
+
+.logo {
+    height: 39px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav_item{
+    color: #575445;
+    opacity: 0.75;
+    text-decoration: none;
+    transition: opacity .2s linear;
+    margin-left: 50px;
+}
+
+header {
+    height: 79px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* intro */
+
+.intro {
+    max-width: 1440px;
+    height: 640px;
+    background: url('/img/intro.png') no-repeat 50% 50%;
+    padding-top: 218px;
+}
+
+.pre-intro-title {
+    color: #E6B939;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.intro-title {
+    color: #fff;
+    width: 416px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.intro-sub {
+    width: 495px;
+    font-size: 17px;
+    color: #CACCD1;
+}
+
+
+/* about us */
+
+
+
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.about_us_text {
+    max-width: 520px;
+}
+
+.pre_title_about{
+    color: #E6B939;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.title_about {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.text_about{
+    max-width: 384px;
+    line-height: 19px;
+}
