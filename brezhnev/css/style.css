@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    background-color: #E5E5E5;
+}
+#div1 {
+    float: left;
+    margin-left: 50%;
+}
+#div2 {
+    float: left;
+}
+#div3 {
+    float: left;
+}
+#div4 {
+    float: left;
+}
+div.div1 {
+    display: inline;
+    font-size: 25px;
+    font-family: 'poppins';
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+    font-style: normal;
+    line-height: 29px;
+}
+div.div2{
+    position: absolute;
+    font-family: 'poppins';
+    font-size: 400%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
