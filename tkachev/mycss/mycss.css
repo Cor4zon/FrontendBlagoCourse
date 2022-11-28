@@ -1,7 +1,7 @@
 .fon1 {
     background-image: url("heroimage.png");
-    width: 1440px;
     height: 800px;
+    width: 1440px;
 }
 .im1Fon1 {
     position: absolute;
@@ -20,9 +20,13 @@
 .Ob1Fon1 {
     position: absolute;
     height: 64px;
-    width: 742px;
-    left: 533px;
+    width: 852px;
+    left: 470px;
     top: 55px;
+}
+.Spis1Fon1 {
+    display: inline;
+    margin-left: 23px;
 }
 .Ob2Fon1 {
     position: absolute;
@@ -30,11 +34,6 @@
     width: 556px;
     left: 175px;
     top: 322px;
-}
-.Spis1Fon1 {
-    font-size: 14px;
-    color: white;
-    display: inline;
 }
 .im3Fon1 {
     display: block;
@@ -77,4 +76,94 @@
     left: 356px;
     top: 522px;
     background-color: #FF7400;
+}
+.im8Fon1 {
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+.im9Fon1 {
+    margin-left: 15px;
+    height: 51px;
+}
+.im10Fon1 {
+    position: relative;
+    top: 5px;
+    margin-left: 34px;
+}
+.btn2Fon1 {
+    position: relative;
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    left: 50px;
+    bottom: 15px;
+}
+.im11Fon1 {
+    position: absolute;
+    left: 450px;
+    top: 0px;
+    
+}
+.im12Fon1 {
+    position: absolute;
+    left: 480px;
+    top: 0px;
+}
+.fon2 {
+    height: 991px;
+    width: 1440px;
+}
+.sizeBlock {
+    background-color: #FFFFFF;
+    height: 328px;
+    width: 349px;
+}
+.posit1 {
+    position: absolute;
+    left: 166px;
+    top: -107px;
+    filter: drop-shadow();
+}
+.posit2 {
+    position: absolute;
+    left: 546px;
+    top: -107px;
+}
+.posit3 {
+    position: absolute;
+    left: 926px;
+    top: -107px;
+}
+.im1Fon2 {
+    margin-left: 114px;
+    margin-top: 35px;
+}
+.im2Fon2 {
+    margin-left: 43px;
+    margin-bottom: 20px;
+}
+.im3Fon2 {
+    margin-left: 30px;
+}
+.im4Fon2 {
+    margin-left: 118px;
+    margin-top: 38px;
+}
+.im5Fon2 {
+    margin-left: 58px;
+    margin-bottom: 20px;
+}
+.im6Fon2 {
+    margin-left: 90px;
+}
+.im7Fon2 {
+    margin-left: 122px;
+    margin-top: 37px;
+}
+.im8Fon2 {
+    margin-left: 92px;
+    margin-bottom: 20px;
+}
+.im9Fon2 {
+    margin-left: 50px;
 }
