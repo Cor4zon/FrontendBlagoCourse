@@ -110,6 +110,7 @@
     top: 0px;
 }
 .fon2 {
+    background-color: white;
     height: 991px;
     width: 1440px;
 }
@@ -166,3 +167,102 @@
 .im9Fon2 {
     margin-left: 50px;
 }
+.im10Fon2 {
+    position: absolute;
+    left: 220px;
+    top: 387px;
+}
+.im11Fon2 {
+    position: absolute;
+    left: 166px;
+    top: 470px;
+}
+.im12Fon2 {
+    position: absolute;
+    left: 247px;
+    top: 726px;
+}
+.im13Fon2 {
+    position: absolute;
+    left: 353px;
+    top: 726px;
+}
+.im14Fon2 {
+    position: absolute;
+    left: 467px;
+    top: 726px;
+}
+.im15Fon2 {
+    position: absolute;
+    left: 228px;
+    top: 782px;
+}
+.im16Fon2 {
+    position: absolute;
+    left: 370px;
+    top: 782px;
+}
+.im17Fon2 {
+    position: absolute;
+    left: 452px;
+    top: 782px;
+}
+.im18Fon2 {
+    position: absolute;
+    left: 925px;
+    top: 372px;
+    width: 255px;
+    height: 430px;
+}
+.im19Fon2 {
+    position: absolute;
+    left: 735px;
+    top: 436px;
+}
+.im20Fon2 {
+    position: absolute;
+    left: 1019px;
+    top: 569px;
+    width: 254px;
+    height: 300px;
+}
+.im21Fon2 {
+    position: absolute;
+    left: 1020px;
+    top: 405px;
+    width: 164px;
+    height: 212px;
+}
+.fon3 {
+    background-image: url("bg.png");
+    width: 1440px;
+    height: 357px;
+}
+.im1Fon3 {
+    display: block;
+    padding-left: 165px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.im2Fon3 {
+    padding-left: 165px;
+}
+.btn1Fon3 { 
+    position: absolute;
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    left: 1097px;
+    top: 155px;
+}   
+.fon3 {
+    background-color: white;
+    width: 1440px;
+    height: 357px;
+}
+.fon4 {
+    background-color: white;
+    width: 1440px;
+    height: 963px;
+}
+     
