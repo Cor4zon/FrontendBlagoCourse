@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+  }
+
+header {
+    height: 120px;
+    background: #4A2B33;
+}
+
+.header_container {
+    height: 75px;
+    width: 100%;
+    display: inline-block;
+    margin: 22.5px 20px;
+ }
+
+.menu_links {
+    margin: 25px auto 25px 36px;
+    display: inline-block;
+}
+
+.menu_links ul {
+    list-style: none;
+}
+
+.menu_links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu_links a {
+    text-decoration: none;
+    color: #D27487;
+    font-size: 15px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.social_networks {
+    display: inline-block;
+}
+
+.social_networks a {
+    text-decoration: none;
+}
+
+.social_networks li {
+    display: inline;
+}
+
+.main {
+    height: 680px;
+    background: #4A2B33;
+}
+
+.main img {
+    padding: 0px 56px 36px;
+}
+
+.page_about_us {
+    height: 713px;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.title_about_us {
+    margin-top: 220px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.text_about_us {
+    height: 224px;
+    font-size: 32px;
+}
+
+.page_menu {
+    height: 1277px;
+    background-color: #E9E9E3;
+}
+
+.title_menu {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 18px;
+    color: #6F6F64;
+}
+
+.about_menu {
+    font-size: 32px;
+    color: #6F6F64;
+}
+
+.menu_buttons button {
+    color: rgba(111, 111, 100, 1);
+    font-size: 15px;
+    height: 58px;
+    width: 531px;
+    border: 2px solid rgba(111, 111, 100, 1);
+    background-color: #E9E9E3;
+    cursor: pointer;
+}
+
+.adress_working_time {
+    height: 473px;
+    background-color: #AA9E54;
+    color: rgba(255, 255, 255, 1);
+}
