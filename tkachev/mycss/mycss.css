@@ -1,0 +1,433 @@
+.fon1 {
+    background-image: url("heroimage.png");
+    height: 800px;
+    width: 1440px;
+}
+.im1Fon1 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 165px;
+    top: 50px;
+}
+.im2Fon1 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 189px;
+    top: 50px;
+}
+.Ob1Fon1 {
+    position: absolute;
+    height: 64px;
+    width: 852px;
+    left: 470px;
+    top: 55px;
+}
+.Spis1Fon1 {
+    display: inline;
+    margin-left: 23px;
+}
+.Ob2Fon1 {
+    position: absolute;
+    height: 179px;
+    width: 556px;
+    left: 175px;
+    top: 322px;
+}
+.im3Fon1 {
+    display: block;
+    position: absolute;
+    bottom: 127px;
+    left: 24px;
+}
+.im4Fon1 {
+    display: block;
+    position: absolute;
+    bottom: 37px;
+    left: 0px;
+}
+.im5Fon1 {
+    display: block;
+    position: absolute;
+    left: 96px;
+    bottom: 12px;
+    height: 2px;
+    width: 61px;
+}
+.im6Fon1 {
+    display: block;
+    position: absolute;
+    left: 165px;
+    bottom: 0px;
+}
+.im7Fon1 {
+    display: block;
+    position: absolute;
+    left: 342px;
+    bottom: 12px;
+    height: 2px;
+    width: 61px;
+}
+.btn1Fon1 {
+    position: absolute;
+    width: 137px;
+    height: 47px;
+    left: 356px;
+    top: 522px;
+    background-color: #FF7400;
+}
+.im8Fon1 {
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+.im9Fon1 {
+    margin-left: 15px;
+    height: 51px;
+}
+.im10Fon1 {
+    position: relative;
+    top: 5px;
+    margin-left: 34px;
+}
+.btn2Fon1 {
+    position: relative;
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    left: 50px;
+    bottom: 15px;
+}
+.im11Fon1 {
+    position: absolute;
+    left: 450px;
+    top: 0px;
+    
+}
+.im12Fon1 {
+    position: absolute;
+    left: 480px;
+    top: 0px;
+}
+.fon2 {
+    background-color: white;
+    height: 991px;
+    width: 1440px;
+}
+.sizeBlock {
+    background-color: #FFFFFF;
+    height: 328px;
+    width: 349px;
+}
+.posit1 {
+    position: absolute;
+    left: 166px;
+    top: -107px;
+}
+.posit2 {
+    position: absolute;
+    left: 546px;
+    top: -107px;
+}
+.posit3 {
+    position: absolute;
+    left: 926px;
+    top: -107px;
+}
+.im1Fon2 {
+    margin-left: 114px;
+    margin-top: 35px;
+}
+.im2Fon2 {
+    margin-left: 43px;
+    margin-bottom: 20px;
+}
+.im3Fon2 {
+    margin-left: 30px;
+}
+.im4Fon2 {
+    margin-left: 118px;
+    margin-top: 38px;
+}
+.im5Fon2 {
+    margin-left: 58px;
+    margin-bottom: 20px;
+}
+.im6Fon2 {
+    margin-left: 90px;
+}
+.im7Fon2 {
+    margin-left: 122px;
+    margin-top: 37px;
+}
+.im8Fon2 {
+    margin-left: 92px;
+    margin-bottom: 20px;
+}
+.im9Fon2 {
+    margin-left: 50px;
+}
+.im10Fon2 {
+    position: absolute;
+    left: 220px;
+    top: 387px;
+}
+.im11Fon2 {
+    position: absolute;
+    left: 166px;
+    top: 470px;
+}
+.im12Fon2 {
+    position: absolute;
+    left: 247px;
+    top: 726px;
+}
+.im13Fon2 {
+    position: absolute;
+    left: 353px;
+    top: 726px;
+}
+.im14Fon2 {
+    position: absolute;
+    left: 467px;
+    top: 726px;
+}
+.im15Fon2 {
+    position: absolute;
+    left: 228px;
+    top: 782px;
+}
+.im16Fon2 {
+    position: absolute;
+    left: 370px;
+    top: 782px;
+}
+.im17Fon2 {
+    position: absolute;
+    left: 452px;
+    top: 782px;
+}
+.im18Fon2 {
+    position: absolute;
+    left: 925px;
+    top: 372px;
+    width: 255px;
+    height: 430px;
+}
+.im19Fon2 {
+    position: absolute;
+    left: 735px;
+    top: 436px;
+}
+.im20Fon2 {
+    position: absolute;
+    left: 1019px;
+    top: 569px;
+    width: 254px;
+    height: 300px;
+}
+.im21Fon2 {
+    position: absolute;
+    left: 1020px;
+    top: 405px;
+    width: 212px;
+    height: 164px;
+}
+.fon3 {
+    background-image: url("bg.png");
+    width: 1440px;
+    height: 357px;
+}
+.im1Fon3 {
+    display: block;
+    padding-left: 165px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.im2Fon3 {
+    padding-left: 165px;
+}
+.btn1Fon3 { 
+    position: absolute;
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    left: 1097px;
+    top: 155px;
+}   
+.fon4 {
+    background-color: white;
+    width: 1440px;
+    height: 963px;
+}
+.im1Fon4 {
+    margin-left: 588px;
+    margin-top: 132px;
+}
+.table{
+    display: table;
+    padding: 0;
+    margin-top: 143px;
+}
+.right {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+.left {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+
+.img3fon4 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.img4fon4 {
+    margin-left: 20px;
+    padding-bottom: 80px;
+
+}
+.img5fon4 {
+    margin-left: 20px;
+    padding-bottom: 95px;
+
+} 
+
+.fon5 {
+    background-image: url("bar-1869656_1920 2.png");
+    width: 1440px;
+    height: 1034px;
+}
+.flexWindowContainer {
+    padding: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.item5{
+    display: flex;
+    margin-left: 166px;
+}
+.ObjectSizeFon5 {
+    position: relative;
+    background-color: white;
+    width: 350px;
+    height: 510px;
+}
+.krugFon5 {
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.koordinaty5 {
+    position: absolute; 
+    left: 192px;
+    top: 205px;  
+}
+.koorditaty420_5 {
+    position: absolute;
+    left: 222px;
+    top: 242px;
+}
+.koordinatyGamb5 {
+    padding-left: 81px;
+    padding-top: 16px;
+}
+.koord5 {
+    padding-left: 85px;
+    padding-top: 17px;
+}
+.btn1Fon5 {
+    background-color: #D67E34;
+    width: 220px;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.recomFon5 {
+    background-color: #D67E34;
+    position: absolute;
+    width: 124px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+.fon6 {
+    background-color: #E5E5E5;
+    width: 1440px;
+    height: 550px;
+}
+.im1Fon6 {
+    display: block;
+    margin-left: 260px;
+    margin-top: 104px;
+    margin-bottom: 75px;
+}
+.im2Fon6 {
+    display: block;
+    margin-left: 650px;
+    margin-bottom: 17px;
+}
+.im3Fon6 {
+    display: block;
+    margin-left: 646px;
+    margin-bottom: 9px;
+}
+.im4Fon6 {
+    display: block;
+    margin-left: 656px;
+}  
+.fon7 {
+    background-color: white;
+    width: 1440px;
+    height: 1632px;
+}
+.im1Fon7 {
+    display: block;
+    padding-top: 101px;
+    padding-left: 576px;
+    margin-bottom: 59px;
+}
+.im2Fon7 {
+    margin-left: 167px;
+    margin-right: 25px;
+}
+.im3Fon7 {
+    margin-right:  25px;
+}
+.im4Fon7 {
+    margin-top: 25px;
+    margin-left: 167px;
+    margin-right: 25px;
+}
+.im5Fon7 {
+    margin-right: 25px;
+}
+.im6Fon7 {
+    margin-right: 25px;
+}
+.im7Fon7 {
+    display: block;
+    margin-left: 558px;
+    margin-top: 100px;
+    margin-bottom: 107px;}
+.im8Fon7 {
+    margin-right: 25px;
+    margin-left: 167px;
+}
+.im9Fon7 {
+    margin-right: 25px;
+}
+.fon8 {
+    background-image: url("Mask Group2.png");
+    width: 1440px;
+    height: 732px;
+}
+     
