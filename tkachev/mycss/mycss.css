@@ -230,8 +230,8 @@
     position: absolute;
     left: 1020px;
     top: 405px;
-    width: 164px;
-    height: 212px;
+    width: 212px;
+    height: 164px;
 }
 .fon3 {
     background-image: url("bg.png");
@@ -255,14 +255,179 @@
     left: 1097px;
     top: 155px;
 }   
-.fon3 {
-    background-color: white;
-    width: 1440px;
-    height: 357px;
-}
 .fon4 {
     background-color: white;
     width: 1440px;
     height: 963px;
+}
+.im1Fon4 {
+    margin-left: 588px;
+    margin-top: 132px;
+}
+.table{
+    display: table;
+    padding: 0;
+    margin-top: 143px;
+}
+.right {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+.left {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+
+.img3fon4 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.img4fon4 {
+    margin-left: 20px;
+    padding-bottom: 80px;
+
+}
+.img5fon4 {
+    margin-left: 20px;
+    padding-bottom: 95px;
+
+} 
+
+.fon5 {
+    background-image: url("bar-1869656_1920 2.png");
+    width: 1440px;
+    height: 1034px;
+}
+.flexWindowContainer {
+    padding: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.item5{
+    display: flex;
+    margin-left: 166px;
+}
+.ObjectSizeFon5 {
+    position: relative;
+    background-color: white;
+    width: 350px;
+    height: 510px;
+}
+.krugFon5 {
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.koordinaty5 {
+    position: absolute; 
+    left: 192px;
+    top: 205px;  
+}
+.koorditaty420_5 {
+    position: absolute;
+    left: 222px;
+    top: 242px;
+}
+.koordinatyGamb5 {
+    padding-left: 81px;
+    padding-top: 16px;
+}
+.koord5 {
+    padding-left: 85px;
+    padding-top: 17px;
+}
+.btn1Fon5 {
+    background-color: #D67E34;
+    width: 220px;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.recomFon5 {
+    background-color: #D67E34;
+    position: absolute;
+    width: 124px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+.fon6 {
+    background-color: #E5E5E5;
+    width: 1440px;
+    height: 550px;
+}
+.im1Fon6 {
+    display: block;
+    margin-left: 260px;
+    margin-top: 104px;
+    margin-bottom: 75px;
+}
+.im2Fon6 {
+    display: block;
+    margin-left: 650px;
+    margin-bottom: 17px;
+}
+.im3Fon6 {
+    display: block;
+    margin-left: 646px;
+    margin-bottom: 9px;
+}
+.im4Fon6 {
+    display: block;
+    margin-left: 656px;
+}  
+.fon7 {
+    background-color: white;
+    width: 1440px;
+    height: 1632px;
+}
+.im1Fon7 {
+    display: block;
+    padding-top: 101px;
+    padding-left: 576px;
+    margin-bottom: 59px;
+}
+.im2Fon7 {
+    margin-left: 167px;
+    margin-right: 25px;
+}
+.im3Fon7 {
+    margin-right:  25px;
+}
+.im4Fon7 {
+    margin-top: 25px;
+    margin-left: 167px;
+    margin-right: 25px;
+}
+.im5Fon7 {
+    margin-right: 25px;
+}
+.im6Fon7 {
+    margin-right: 25px;
+}
+.im7Fon7 {
+    display: block;
+    margin-left: 558px;
+    margin-top: 100px;
+    margin-bottom: 107px;}
+.im8Fon7 {
+    margin-right: 25px;
+    margin-left: 167px;
+}
+.im9Fon7 {
+    margin-right: 25px;
+}
+.fon8 {
+    background-image: url("Mask Group2.png");
+    width: 1440px;
+    height: 732px;
 }
      
