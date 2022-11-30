@@ -37,16 +37,8 @@ header {
     font-size: 15px;
 }
 
-.name {
+.logo {
     display: inline-block;
-}
-
-.name ul {
-    list-style: none;
-}
-
-.name li {
-    display: inline;
 }
 
 .social_networks {
@@ -111,5 +103,11 @@ header {
     width: 531px;
     border: 2px solid rgba(111, 111, 100, 1);
     background-color: #E9E9E3;
+    cursor: pointer;
 }
 
+.adress_working_time {
+    height: 473px;
+    background-color: #AA9E54;
+    color: rgba(255, 255, 255, 1);
+}
