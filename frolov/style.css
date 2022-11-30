@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+header {
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-image: url("background.jpg");
+ background-size: cover ;
+ width: 1921px;
+ height: 900px;
+ left: -1px;
+ top: 0px; 
+}
+.logo {
+  text-align: center;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  color: #FFFFFF;   
+
+}
+.text1{
+  text-align: center;
+  position: absolute;
+  width: 315.16px;
+  height: 25px;
+  left: 802px;
+  top: 261px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+      
+}
+h3 {
+  position: absolute;
+  width: 932px;
+  height: 86px;
+  left: 493px;
+  text-align: center;
+  top: 286px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  font-variant: small-caps;  
+  color: #FFFFFF;
+}
+.text2{
+
+  position: absolute;
+  width: 589px;
+  height: 57px;
+  left: 665px;
+  top: 450px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;  
+  color: #FFFFFF;    
+}
+.button1{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  
+ 
+  height: 25px;
+  left: 855.58px;
+  top: 541px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;   
+}
+h1 {
+ height: 33px;
+ width: 198px;
+ left: 360px;
+ top: 1050px;
+ margin-left: 360px;
+ border-radius: nullpx;
+ font-size: 24px;
+ color:grey;
+ font-style: bold;
+  
+
+}
+
+h2 {
+  font-size: 18px;
+  color: black;
+  font-style: bold;
+  height: 25px;
+  width: 510px;
+  left: 360px;
+  top: 1143px;
+  margin-left: 360px;
+  border-radius: nullpx;
+  
+}
+
+section {
+  font-size: 14px;
+  color: black;
+  font-style:normal;
+  height: 76px;
+  width: 510px;
+  top: 1183px;
+  left: 360px;
+
+}
+.pic1 {
+  position: absolute;
+  display: block;
+  width: 600px;
+  height: 670px;
+  top: 1143px;
+  left: 959px;
+}
+
+
+
+
+.group1 {
+  height: 76px;
+  width: 510px;
+  left: 360px;
+  top: 1183px;
+  margin-left: 360px;
+  border-radius: nullpx;
+  
+
+}
+.group2 {
+  height: 76px;
+  width: 510px;
+  left: 360px;
+  top: 1374px;
+  margin-left: 360px;
+  border-radius: nullpx;
+  
+
+}
+.group3 {
+  height: 76px;
+  width: 510px;
+  left: 360px;
+  top: 1540px;
+  margin-left: 360px;
+  border-radius: nullpx;
+  
+}
+.group4 {
+  height: 76px;
+  width: 510px;
+  left: 360px;
+  top: 1706px;
+  margin-left: 360px;
+  border-radius: nullpx;
+  
+}
