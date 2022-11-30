@@ -1,40 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-image: url("image.jpg");
+    background-size: auto;
     background-color: #D0DB6E;
   }
+img {
+  display: block;
+  width: 300px;
+  margin-left: 600px;
+  
+}
+/* #colorBlock {
+    background-color: #9FBFC1;
+    width: 500px;
+    height: 900px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }  */
 h3 {font-family: "Gilroy",normal;
     font-size: 20px;
     color: #332F2F;
     font-weight: 500;
-    display: inline;
-    margin: 30px;}
-h1 {font-family: "Felix Titling", normal}
-h1 {font-size: 90px;}
-h1 {color: #954D4D;} 
-h1 {font-weight: 100;}
-h1 {
-    position: relative;
-    top: 100px;
-    margin: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+h1 {font-family: "Felix Titling", normal;
+    font-size: 90px;
+    color: #954D4D;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+#plants {
+    padding-top:0px;
 }
+
 .container {
     background-color: #D0DB6E;
-    padding: 30px 80px;
-    margin: 350px;
-    position: relative;
-    right: 400px;
-    bottom: 1150px;
+    width: 700px;
+    padding-top: -100px;
+    padding-left: 100px;
 
   }
-  
-#back {
-    background-color: #9FBFC1;
-    width: 750px;
-    height: 900px;
-    position: relative;
-    top: -600px;
-    right: 0px;
-    left: 650px;
-   
+
+h4 {
+  font-family: "Gilroy",normal;
+  font-size: 20px;
+  color: #332F2F;
+  font-weight: 500;
+  padding-top: 50px;  
   }
+  
+
   
