@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-size: auto;
+    background-color: #D0DB6E;
+  }
+img {
+  display: block;
+  width: 300px;
+  margin-left: 600px;
+  
+}
+/* #colorBlock {
+    background-color: #9FBFC1;
+    width: 500px;
+    height: 900px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }  */
+h3 {font-family: "Gilroy",normal;
+    font-size: 20px;
+    color: #332F2F;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+h1 {font-family: "Felix Titling", normal;
+    font-size: 90px;
+    color: #954D4D;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+#plants {
+    padding-top:0px;
+}
+
+.container {
+    background-color: #D0DB6E;
+    width: 700px;
+    padding-top: -100px;
+    padding-left: 100px;
+
+  }
+
+h4 {
+  font-family: "Gilroy",normal;
+  font-size: 20px;
+  color: #332F2F;
+  font-weight: 500;
+  padding-top: 50px;  
+  }
+  
+
+  
