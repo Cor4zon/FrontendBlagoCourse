@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    background-color: #E5E5E5;
+}
+a {
+    text-decoration: none;
+}
+#div1 {
+    float: left;
+    margin-left: 50%;
+}
+#div2 {
+    float: left;
+}
+#div3 {
+    float: left;
+}
+#div4 {
+    float: left;
+}
+div.div1 {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'poppins';
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+    font-style: normal;
+    line-height: 29px;
+}
+div.divtext1 {
+    display: inline-block;
+    font-family: 'poppins';
+    font-size: 400%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+div.divimg1 img {
+    width: 80%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+div.divtext2 {
+    display: inline-block;
+    font-family: 'poppins';
+    font-size: 400%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+div.divblock1 {
+    margin-left: 10%;
+    display: block;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#divblock1 {
+    display: block;
+    font-style: 'poppins';
+    font-size: 150%;
+    margin: 5%;
+}
+div.divblock2 {
+    display: inline;
+    font-style: 'poppins';
+    margin-left: 50%;
+    margin-top: 25%;
+    
+}
+div.divimg2 {
+    
+
+}
+div.divblock3 {
+    display: inline-block;
+    position: relative;
+    margin-left: 55%;
+    margin-bottom: 10% ;
+}
+#divtext5 {
+    font-size: 250%;
+}
+#divblock4 {
+    margin-top: 5%;
+    display: block;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#divtext3 {
+    display: block;
+    font-style: 'poppins';
+    font-size: 150%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
