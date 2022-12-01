@@ -13,9 +13,6 @@ body {
     color:#575445;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
-
-
-
 }
 
 h1, h2, h3, h4 {
@@ -52,6 +49,14 @@ a:hover {
     line-height: 62px;
 }
 
+.buttons {
+    background-color: #575445;
+    height: 44px;
+    border-radius: 6px;
+    color: #fff;
+    line-height: 22px;
+    font-weight: 400;
+}
 
 /* header  */
 
@@ -76,15 +81,6 @@ a:hover {
     width: 306px;
     display: flex;
     justify-content: space-between;
-}
-
-.buttons {
-    background-color: #575445;
-    height: 44px;
-    border-radius: 6px;
-    color: #fff;
-    line-height: 22px;
-    font-weight: 400;
 }
 
 .template {
@@ -248,12 +244,15 @@ header {
 
 .catalog {
     padding: 0 20px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .catalog-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+    margin-bottom: 21px;
 }
 
 .catalog-item {
@@ -303,3 +302,89 @@ header {
     content: "View ";
 }
 
+
+/* catalog */
+
+.photos {
+    width: 100%;
+    background: url('img/photo.png') no-repeat 50% 50%;
+    background-size: 100%;
+    min-width: 1440px;
+    min-height: 600px;
+}
+
+.hidden {
+    position: relative;
+    width: 100%;
+    min-width: 740px;
+    
+    height: 600px;
+}
+
+.info-photos {
+    display: flex;
+    justify-content: space-between;
+    width: 615px;
+    height: 48px;
+    align-items: center;
+    background-color: #292C32;
+    border-radius: 16px;
+    padding: 0 22px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    opacity: 0.5;
+    transition: opacity .2s linear;
+}
+
+.info-photos a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.photos:hover .info-photos {
+    opacity: 1;
+}
+
+
+
+/* photos */
+
+.checkout {
+    width: 100%;
+    min-width: 1440px;
+    min-height: 393px;
+    background: url('img/shape/5.png') no-repeat 50% 50% #375C58;
+    background-size: 100%;
+    padding: 99px 450px 0 450px;
+}
+
+.checkout_text {
+    text-align: center;
+}
+
+.checkout_text .title {
+    color: #E6B939;
+    margin-bottom: 7px;
+}
+
+.checkout_text .pre_title {
+    color: #FAFAFC;
+}
+
+.text_checkout {
+    color: #FAFAFC;
+}
+
+.checkout a{
+    display: block;
+    width: 111px;
+    margin: 0 auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #575445;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-top: 21px;
+}
