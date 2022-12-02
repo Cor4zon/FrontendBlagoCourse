@@ -115,7 +115,7 @@ header {
     width: 100%;
     min-width: 1440px;
     min-height: 640px;
-    background: url('/img/intro.png') no-repeat 50% 50%;
+    background: url('img/intro.png') no-repeat 50% 50%;
     padding: 218px 20px 0 20px;
     margin: 0 auto;
     background-size: 100%;
@@ -143,7 +143,7 @@ header {
 /* about us */
 
 .about {
-    background: url('/img/shape/1.png') no-repeat 11px 548px, 
+    background: url('img/shape/1.png') no-repeat 11px 548px, 
                 url('img/shape/2.png') no-repeat 587px -28px;
 }
 
