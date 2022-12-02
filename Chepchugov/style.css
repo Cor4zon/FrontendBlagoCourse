@@ -109,9 +109,10 @@ body {
   font-family: anton;
 }
 
-.about {
+#about {
   padding-top: 113px;
   padding-left: 216px;
+  transition: 2s;
 }
 
 h2 {
