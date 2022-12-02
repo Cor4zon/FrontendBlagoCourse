@@ -1,0 +1,183 @@
+header {
+  display: block;
+  background-image: url(/image/header-bg.png);
+  width: 1600px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo {
+  display: inline-flex;
+  padding-top: 57.34px;
+  padding-left: 216.04px;
+}
+
+#logo1 {
+  margin-right: -5px;
+}
+
+#logo3 {
+  margin-left: -5px;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+}
+
+.menu_item {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: anton;
+  font-size: 14px;
+}
+
+.menu_item:hover {
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+
+.menu {
+  color: white;
+  text-decoration: none;
+  font-family: anton;
+  letter-spacing: 1.5px;
+}
+
+.menu:hover {
+  color: black;
+  transition: 2s;
+}
+
+#tel {
+  display: flex;
+  padding-left: 623px;
+  color: white;
+  font-size: 17px;
+}
+
+.not_event {
+  padding-top: 150px;
+  padding-left: 216px;
+}
+
+h3 {
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.burning {
+  padding-left: 213px;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 100px;
+}
+
+.but1 {
+  border: 1px solid white;
+  background: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 19px;
+  margin-left: 216px;
+}
+
+.booking {
+  text-decoration: none;
+  color: white;
+  font-family: anton;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+body {
+  display: block;
+  font-family: anton;
+}
+
+#about {
+  padding-top: 113px;
+  padding-left: 216px;
+}
+
+h2 {
+  margin: 0;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.text {
+  display: flex;
+}
+
+#discrip1 {
+  display: inline-block;
+  padding-left: 215px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+.second {
+  font-family: OpenSans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  box-sizing: content-box;
+  width: 564px;
+  height: 192px;
+}
+
+.discrip2 {
+  padding-left: 120px;
+  padding-right: 100px;
+}
+
+#images {
+  display: flex;
+  padding-left: 216px;
+  padding-top: 67px;
+}
+
+#img2 {
+  padding-left: 29px;
+}
+
+#img3 {
+  padding-left: 100px;
+}
+
+footer {
+  display: flex;
+  font-family: OpenSans;
+  margin-bottom: 80px;
+}
+
+#project {
+  padding-left: 216px;
+  padding-top: 114px;
+}
+
+#name {
+  padding-left: 55px;
+  padding-top: 114px;
+}
