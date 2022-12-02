@@ -56,6 +56,20 @@ a:hover {
     color: #fff;
     line-height: 22px;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    opacity: 0.85;
+    transition: opacity .2s linear;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    opacity: 1;
+}
+
+.buttons:active {
+    background-color: #403d36;
 }
 
 /* header  */
@@ -72,9 +86,6 @@ a:hover {
 .nav_item{
     margin-left: 24px;
 }
-
-
-
 
 .buy_buttons {
     margin-left: 40px;
@@ -158,8 +169,7 @@ header {
     max-width: 1240px;
     padding: 100px 20px 0 20px;
     height: 776px;
-
-
+    align-items: center;
 }
 .about_us_text {
     max-width: 520px;
@@ -412,6 +422,7 @@ header {
 
 .guides-items {
     display: grid;
+    gap: 0 35px;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 30px;
 }
