@@ -1,15 +1,16 @@
 header {
-  display: flex;
+  display: block;
   background-image: url(/image/header-bg.png);
+  width: 1600px;
   height: 900px;
-  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo {
-  display: flex;
-  position: relative;
-  margin-top: 57.34px;
-  margin-left: 216.04px;
+  display: inline-flex;
+  padding-top: 57.34px;
+  padding-left: 216.04px;
 }
 
 #img1 {
@@ -20,12 +21,19 @@ header {
   margin-left: -5px;
 }
 
+#nav {
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+}
+
 .menu_item {
-  display: inline-flex;
-  text-align: center;
-  margin-top: 35px;
+  display: flex;
   padding: 20px;
+  text-align: center;
   color: white;
+  font-family: anton;
+  font-size: 14px;
 }
 
 .menu_item:hover {
@@ -34,12 +42,73 @@ header {
   transition: 2s;
 }
 
-a {
+.menu {
   color: white;
   text-decoration: none;
+  font-family: anton;
+  letter-spacing: 1.5px;
 }
 
-a:hover {
+.menu:hover {
   color: black;
   transition: 2s;
+}
+
+#tel {
+  display: flex;
+  padding-left: 623px;
+  color: white;
+  font-size: 17px;
+}
+
+@font-face {
+  font-family: anton;
+  src: url(font/anton-regular.ttf-text-align);
+}
+
+.not_event {
+  padding-top: 150px;
+  padding-left: 216px;
+}
+
+h3 {
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.burning {
+  padding-left: 213px;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 100px;
+}
+
+.but1 {
+  border: 1px solid white;
+  background: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 19px;
+  margin-left: 216px;
+}
+
+.booking {
+  text-decoration: none;
+  color: white;
+  font-family: anton;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+body {
+  font-family: anton;
 }
