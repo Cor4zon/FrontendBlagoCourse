@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-size: auto;
+    background-color: #D0DB6E;
+  }
+/* img {
+  display: block;
+  width: 300px;
+  margin-left: 600px;
+  
+} */
+/* #colorBlock {
+    background-color: #9FBFC1;
+    width: 500px;
+    height: 900px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }  */
+ 
+.menu {
+  display: flex;
+  height: 39px;
+  width: 1508px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 78px;
+  margin-right: 120px;
+}  
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 23px;
+  width: 811px;
+  margin-top: 78px;
+  margin-left: 65px;
+}
+
+h3 {font-family: "Gilroy",normal;
+    font-size: 20px;
+    color: #332F2F;
+    font-weight: 400;
+    margin: 0 0 0 0;
+  }
+  
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 467px;
+  height: 242px;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-top: 108px;
+}
+
+h1 {font-family: "Felix Titling", normal;
+    font-size: 128px;
+    color: #954D4D;
+    font-weight: 100;
+    margin: 0 0 0 0;
+  }
+
+.container {
+  display: flex;
+  width: 593px;
+  height: 78px;
+  margin-top: 86px;
+  margin-left: 100px;
+  }
+
+h4 {
+  font-family: "Gilroy",normal;
+  font-size: 20px;
+  color: #332F2F;
+  font-weight: 400; 
+  line-height: 125%;
+  margin: 0 0 0 0; 
+  }
+
+.Кнопка {
+  display: flex;
+  background-color: white;
+  height: 78px;
+  width: 250px;
+  border-radius: 64px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 114px;
+}
+h2 {
+  font-family: "Gilroy",normal;
+  font-size: 24px;
+  color: #954D4D;
+  font-weight: 400; 
+  margin: 0 0 0 0; 
+}
+  
+
+  
