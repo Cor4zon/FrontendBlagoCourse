@@ -152,16 +152,46 @@ header {
     margin-top: 0;
 }
 
+.page_photo {
+    height: 912px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 40px;
+}
 
+.horizontal_photo {
+    
+}
 
-/* .awards {
-    font-family: 'Azeret Mono', monospace;
+.vertical_photo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.awards {
+    height: 461px;
+    background-color: #4A2B33;
+    color: #D27487;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awards_title {
+    /* font-family: 'Azeret Mono', monospace; */
     font-size: 47px;
-} */
-
-/* .awards_title {
-
+    width: 50%;
+    margin-left: 56px;
 }
 
 .award_description {
-} */
+    font-size: 18px;
+    width:40%;
+}
+
