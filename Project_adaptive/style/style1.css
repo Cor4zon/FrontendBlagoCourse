@@ -81,9 +81,17 @@ header {
     padding: 0 11px 0 21px;
 }
 
-.logo{
+.logo-desktop{
     width: 100%;
     max-width: 90px;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
 }
 
 .nav{
@@ -92,6 +100,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.close{
+    display: none;
 }
 
 .nav-link {
@@ -122,6 +134,14 @@ header {
 
 .button-log::after {
     content: none;
+}
+
+.burger {
+    display: none;
+}
+
+.reg-mobile{
+    display: none;
 }
 
 /* hidden-button */

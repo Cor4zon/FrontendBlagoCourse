@@ -1,0 +1,298 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    color: #22253B;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 729px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.info-box {
+    background-color: #EAF2F5;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #22253B;
+}
+
+.button {
+    height: 70px;
+    background-color: #F15525;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 82px;
+    opacity: 0.75;
+    transition: opacity .2s linear;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button::after{
+    content: url('../img/Icon/button-icon.png');
+    margin-left: 13px;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* header  */
+
+header {
+    background-color: #EAF2F5;
+    margin-bottom: 90px;
+}
+
+.navigate{
+    padding-top: 14px;
+    margin-bottom: 24px;
+}
+
+.navigate-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 41px;
+    background-color: #FFFFFF;
+    border-radius: 75px;
+    padding: 0 11px 0 21px;
+}
+
+
+.logo-mobile{
+    width: 100%;
+    max-width: 40px;
+}
+
+.logo-desktop{
+    display: none;
+}
+
+
+.nav-hidden{
+    display: none;
+}
+
+.nav-mobile-show {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    width: 256px;
+    height: 576px;
+    padding: 15px 31px;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 50;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.nav-link {
+    display: block;
+    height: 40px;
+    width: 191px;
+}
+
+.close {
+    margin-left: 195px;
+    margin-bottom: 13.4px;
+}
+
+.cover-background {
+    display: block;
+    background-color: #181818;
+    opacity: 0.6;
+    z-index: 25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.burger {
+    width: 17px;
+    height: 14px;
+    cursor: pointer;
+    background: url('../img/Icon/burger.png') no-repeat 50% 50%;
+}
+
+.reg-desktop {
+    display: none;
+}
+
+
+.button-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 28.73px;
+
+    color: #FFFFFF;
+    background-color: #38BFF2;
+    border-radius: 34px;
+    margin-left: 5px;
+}
+
+.button-log::after {
+    content: none;
+}
+
+.hidden-button {
+    display: none;
+}
+
+/* intro  */
+
+.intro {
+    overflow: hidden;
+}
+
+.intro-block {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+}
+
+.intro-content{
+    width: 100%;
+    max-width: 288px;
+}
+
+.intro-content-mobile {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.intro-title {
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+
+.intro-text {
+    width: 100%;
+    max-width: 365px;
+    padding-top: 9px;
+    border-top: #DEDEDE solid 1px;
+    margin-bottom: 21px;
+}
+
+
+span {
+    color: #F15525;
+}
+
+strong {
+    font-style: italic;
+}
+
+.intro-img {
+    margin: 0 auto;
+}
+
+
+.go-test {
+    width: 100%;
+    max-width: 321px;
+    margin-bottom: 63px;
+}
+
+/* technology */
+
+.technology-title {
+    text-align: center;
+}
+
+.tech-info {
+    padding: 17px;
+}
+
+.tech-img {
+    display: none;
+}
+
+
+.minimum-language {
+    width: 100%;
+}
+
+.tech-text {
+    display: none;
+
+}
+
+.it-language {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.language-item {
+    display: inline-block;
+    color: #fff;
+    height: 45.13px;
+    border-radius: 44px;
+    padding: 11px 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    min-width: 45.13px;
+    max-width: 267px;
+}
+
+
+.language-item:nth-child(1) {
+    background-color: #5096FF;
+}
+
+.language-item:nth-child(2) {
+    background-color: #FFB359;
+}
+
+.language-item:nth-child(3) {
+    background-color: #FF6F50;
+}
+
+.language-item:nth-child(4) {
+    background-color: #4BD071;
+}
+
+.language-item:nth-child(5) {
+    background-color: #50C0FF;
+}
+
+.language-item:nth-child(6) {
+    background-color: #4B77B9;
+}
+
+.language-item:nth-child(7) {
+    background-color: #AF93FF;
+}
+

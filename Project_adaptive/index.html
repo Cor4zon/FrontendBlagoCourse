@@ -7,27 +7,40 @@
     <title>YtYt</title>
     <link href = "Fonts/Gilroy-Regular/style.css" rel = "stylesheet" type = "text/css">
     <link href = "Fonts/Gilroy-Semibold/style.css" rel = "stylesheet" type = "text/css">
-    <link rel="stylesheet" href="/style/style1.css">
+    <link rel="stylesheet" href="/style/style1.css" media="only screen and (min-width:730px)">
+    <link rel="stylesheet" href="/style/style2.css" media="only screen and (max-width:729px)">
 </head>
 <body>
     <header>
         <div class="navigate">
             <div class="container">
                 <div class="navigate-content">
-                    <nav class="nav">
-                        <div class="logo">
+                    <div class="logo-mobile">
+                        <a href="#">
+                            <img src="img/Logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <nav class="nav nav-hidden">
+                        <div class="logo-desktop">
                             <a href="#">
                                 <img src="img/Logo.png" alt="Logo">
                             </a>
+                        </div>
+                        <div class="close">
+                            <img src="img/Icon/close.png" alt="">
                         </div>
                         <a href="#" class="nav-link">Чему вы научитесь</a>
                         <a href="#" class="nav-link">Процесс обучения</a>
                         <a href="#" class="nav-link">Стоимость</a>
                         <a href="#" class="nav-link">Контакты</a>
+                        <a href="#" class="reg-mobile">Регистрация</a>
                     </nav>
                     <div class="log-in">
-                        <a href="#">Регистрация</a>
+                        <a href="#" class="reg-desktop">Регистрация</a>
                         <a href="#" class="button-log button">Войти</a>
+                    </div>
+                    <div class="burger">
+
                     </div>
                 </div>
             </div>
@@ -36,7 +49,7 @@
         <div class="intro hidden">
             <div class="container">
                 <div class="intro-block">
-                    <div class="intro-content">
+                    <div class="intro-content intro-content-mobile">
                         <div class="intro-title">
                             <h1>Школа <span>{</span><strong>программирования</strong><span>}</span> для тех, кому нужны реальные навыки,
                                 а не просто сертификат</h1>
