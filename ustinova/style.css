@@ -195,3 +195,33 @@ header {
     width:40%;
 }
 
+footer {
+    height: 187px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer ul {
+    text-align: center;
+    margin: 7px;
+}
+
+footer li {
+    display: inline-block;
+    padding-right: 32px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(31, 31, 31, 1);
+}
+
+
