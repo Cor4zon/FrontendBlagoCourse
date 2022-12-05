@@ -1,0 +1,953 @@
+.every {
+    background-color:black;
+    margin: 0px;
+    height: 9000px;
+  }
+  
+  
+  
+  .header {
+  display: flex;
+  color: white;
+  height: 150px;
+  }
+  
+  .header div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .Meta {
+    margin-left: 141px;
+    width: auto;
+  }
+  
+  .Meta p {
+   letter-spacing: 2px;
+   font-size: 40px;
+   margin-right:0px;
+   margin-top: 25px;
+  }
+  
+  .Meta sup {
+   margin-left: 0px;
+   margin-top: 30px;
+   font-size: 12px;
+   width: auto; 
+  }
+  
+  ul.list {
+   display: flex;
+   gap: 30px;
+   width: 350px;
+  }
+  
+  .nav_links {
+    display: block;
+  }
+  
+  .nav_links a{
+  display: inline-block;
+  letter-spacing: 1.7px;
+  margin-left: 25px;
+  color: white;
+  text-decoration: none;
+  }
+  
+  .nav_links a:hover {
+    border-bottom: 2px solid #1CBCF1;
+    text-decoration-line: 0px;
+  }
+  
+  .icons { 
+  display: inline-block;
+  margin-left: 515px;  
+  
+  }
+  
+  .icon_image1 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  
+  }
+  
+  .icon_image2 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-left: 55px;
+  }
+  
+  .icon_image3 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-left: 110px;
+  }
+  
+  .icon_image4 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-left: 165px;
+  }
+  
+  .icons img:hover {
+    outline: 1px solid #1CBCF1;
+    outline-offset: 0px;
+  }
+  
+  .label {
+    background-color: black;
+    display: inline-block;
+    width:484px;
+    margin-left: 72px;
+  }
+  
+  .label h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 60px;
+    letter-spacing: 1.7px;
+    margin-bot: 0px;
+  }
+  
+  .label_description {
+    margin-top: 5px;
+    width: 400px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+  
+  .button {
+    display:inline-block;
+    background-color: #8DFD1B;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 202px;
+    height: 57px;
+    font-family: Georgia;
+    letter-spacing: 1.3px;
+    font-size: 20px;
+    border: solid 1.5px #8DFD1B;
+    border-radius: 5px;
+  }
+  
+  .button p {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 125px;
+    color: black;
+  }
+  
+  .button p:hover {
+  border-bottom: 3px solid #1CBCF1;
+  }
+  
+  .main_image {
+    height: 653px;
+    width: 870px;
+    display: inline-block;
+    margin-left: 19px
+  }
+  
+  .description_and_image {
+  display: flex;
+  
+  }
+  
+  .promo {
+  margin-top: 125px;
+  margin-left: 106px;
+  }
+  
+  .promo p {
+  color: white;
+  margin: 0px 0px;
+  }
+  
+  .promo_name {
+    display: inline-block;
+    font-size: 38px;
+    width: 351px;
+    font-family: Arial Black;
+  }
+  
+  .promo_name p {
+    line-height: 45.48px;
+  }
+  
+  .short_desc {
+    display: inline-block;
+    margin-left: 185px;
+    
+  }
+  
+  .short_desc p{
+    padding-left: 22px;
+    color:  #8DFD1B;
+    font-family: DM Mono;
+    font-weight: 500;
+    letter-spacing: 2.8px;
+    font-size: 21px;
+    line-height: 32px;
+    width: 524px;
+    height: 128px;
+    border-left: 3px solid #8DFD1B;
+  }
+  
+  .wave_description {
+    display:flex;
+    margin-top:27px;
+  }
+  
+  .wave_description img{
+  margin-left: 40px;
+  margin-top:14px;
+  width: 360px;
+  height:360px;
+  }
+  
+  .wave_description p {
+    
+  }
+  
+  .img {
+    display: inline-block;
+  }
+  
+  .long_description {
+    display: inline-block;
+    color: white;
+    width: 551px;
+    margin-top: 0px;
+    margin-left: 138px;
+  }
+  
+  .long_description p {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.45px;
+  }
+  
+  p.button_content {
+    margin-top: 10px;
+  }
+  
+  .promo_button {
+    display:inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 246px;
+    height: 42px;
+    font-family: Georgia;
+    letter-spacing: 1.3px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #8DFD1B;
+    border-radius: 7px;
+  }
+  
+  .artists p{
+  color: white;
+  }
+  
+  .artists_head {
+  display: flex;
+  width:1440px ;
+  justify-content: space-around;
+  font-size: 79px;
+  margin-top: 113px;
+  margin-bottom:127px;
+  }
+  
+  .artists_avatars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: ;
+    grid-column-gap: 67px;
+    margin-left: 40px;
+    width: 1160px;
+  }
+  
+  .img_and_name p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-family: monospace;
+  }
+  
+  .img_and_name img {
+  width: 245px;
+  height:245px;
+  }
+  
+  .mrl_story {
+    display: flex;
+    width: 1440px;
+    
+  }
+  
+  .mrl_story div {
+    display: flex;
+    margin-top: 258px;
+    font-family: Garamond, serif;
+    color: grey;
+    font-size: 37px;
+  }
+  
+  .mrl{
+    margin-left: 439px;
+    color: white;
+    margin-bottom: 61px;
+  }
+  
+  .founders {
+    display: flex;
+    margin-left: 40px;
+    
+  }
+  
+  .folders {
+    color: white;
+  }
+  
+  .folders div {
+    height: 72px;
+    width: 290px;
+    
+  }
+  
+  .folders p {
+    margin-top:25px;
+    margin-left: 28px;
+  }
+  
+  .folder_green {
+    background-color: #222222;
+    color: #8DFD1B;
+    border: 1px solid #222222;
+    border-radius: 7px;
+  }
+  
+  .founders_info {
+  display: flex;
+  background-color: #222222;
+  width: 878px;
+    margin-left:-8px;
+    border: 1px solid #222222;
+    border-radius: 7px;
+  }
+  
+  .founders_image {
+   width: 172px;
+   height: 253px;
+   margin-left: 60px;
+   margin-top: 60px;
+  }
+  
+  .founders_description{
+  display: inline-block; 
+  margin-top: 60px;
+  margin-left: 38px;
+  }
+  
+  .shaky_lake {
+  font-family: Courier;
+  font-size: 21px;
+  line-height: 32px;
+  color:#8DFD1B;
+  width: 500px;
+  border-left: 2px solid #8DFD1B;
+  }
+  
+  .shaky_lake p {
+    margin-left: 20px;
+    font-weight: 400;
+  }
+  
+  .shaky_lake_story {
+    color: white;
+    font-family: Tahoma;
+    letter-spacing: 0.7px;
+    width: 529px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  
+  .circles_and_plates {
+    text-align: center;
+    margin-top: 80px;
+    width: 1440px;
+    height: 1920px;
+  }
+  
+  .guitar_image {
+    margin-top: 106px;
+    margin-bottom: 20px;
+  }
+  
+  .circles_and_plates h4 {
+  color: white;
+  font-size: 38px;
+  font-family: Garamond, serif;
+  margin-bottom: 16px;
+  margin-top: 106px;
+  z-index: 10;
+    
+    
+  }
+  
+  .phases {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .phase1 {
+    position: relative;
+    top: -450px;
+    left: -350px;
+    display: inline-block;
+    border: 1px solid #8DFD1B;
+    width: 540px;
+    height: auto;
+    background-color: #222222;
+    margin-bottom: 140px;
+    z-index: 10;
+  }
+  
+  .phase2 {
+    position: relative;
+    top: -870px;
+    left: -350px;
+    display: inline-block;
+    border: 1px solid #8DFD1B;
+    width: 540px;
+    height: auto;
+    background-color: #222222;
+    margin-bottom: 140px;
+    z-index: 10;
+   
+  }
+  
+  .phase3 {
+    position: relative;
+    top: -1290px;
+    left: -350px;
+    display: inline-block;
+    border: 1px solid #8DFD1B;
+    width: 540px;
+    height: auto;
+    background-color: #222222;
+    margin-bottom: -140px;
+    z-index: 10;
+  }
+  
+  .phase_label {
+    display: flex;
+    border-bottom: 1px solid #8DFD1B;
+    padding-left: 0px;
+    height: 71px;
+    text-transform: uppercase;
+  }
+  
+  .phase_label_number {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+    background-color: #8DFD1B;
+    margin-top: 13px;
+    margin-left: 13px;
+    padding-left: 0px;
+    position: absolute;
+    border: 1px solid #8DFD1B;
+    border-radius: 7px;
+  }
+  
+  .phase_label_number p {
+    margin-top: 8px;
+    color: black;
+  }
+  
+  .phase_name {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    height: 41px;
+    margin-top: 10px;
+    position: relative;
+    left: 70px;
+    line-height: 12px;
+    padding-bottom: 2px;
+    
+  }
+  
+  .completed {
+    color: #8DFD1B;
+    font-size: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+  
+  .phase_label_description{
+    color: white;
+    line-height: 12px;
+    margin-top: 4px;
+    font-family: Arial Black;
+    
+  }
+  
+  .phase_description {
+    display: flex;
+  margin-top: 25.38px;
+  }
+  
+  .phase_info {
+    display: inline-block;
+    text-align: start;
+  }
+  
+  .phase_links a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+  }
+  
+  .phase_links {
+    margin-left: 35px;
+    line-height: 16px;
+    font-size: 11px;
+    margin-bottom: 26px;
+  }
+  
+  .link_12px {
+    font-size: 12px;
+  }
+  
+  .phase_underline {
+    color: white;
+    width: 320px;
+    
+    margin-top: 12px;
+    margin-left: 13px;
+    
+    line-height: 26px;
+    font-family: monospace;
+    font-size: 11px;
+  }
+  
+  .phase_image {
+    display: inline-block;
+    margin-left: 64px;
+  }
+  
+  .main_circle1 {
+   display: inline-block;
+   position: relative;
+   top: -280px;
+   left: -70px;
+   border: solid 1px #8DFD1B ;
+   
+   border-radius: 671px;
+   width: 671px;
+   height: 671px;
+   z-index: 1;
+  }
+  
+  .main_circle2 {
+   display: inline-block;
+   position: relative;
+   top: -620px;
+   left: 630px;
+   border: solid 1px #8DFD1B ;
+   border-radius: 671px;
+   width: 671px;
+   height: 671px;
+   z-index: 1;
+  }
+  
+  .main_circle3 {
+   display: inline-block;
+   position: relative;
+   top: -860px;
+   left: -100px;
+   border: solid 1px #8DFD1B ;
+   border-radius: 671px;
+   width: 671px;
+   height: 671px;
+   z-index: 1;
+  }
+  
+  .circle2 {
+   position: relative;
+   top: 127.5px;;
+   left: 127.5px;
+   border: solid 1px #8DFD1B ;
+   opacity: 1;
+   border-radius: 671px;
+   width: 416px;
+   height: 416px;
+   z-index: 1;
+  }
+  
+  .circle3 {
+   position: relative;
+   top: 79px;
+   left: 79px;
+   opacity: 0.75;
+   border: solid 1px #8DFD1B ;
+   border-radius: 671px;
+   width: 258.21px;
+   height: 258.21px;
+   z-index: 1;
+  }
+  
+  .circle4 {
+   position: relative;
+   top: 49px;
+   left: 49px;
+   opacity: 1;
+   border: solid 1px #8DFD1B ;
+   border-radius: 671px;
+   width: 160px;
+   height: 160px;
+   z-index: 1;
+  }
+  
+  .circle5 {
+   position: relative;
+   top: 30.5px;
+   left: 30.5px;
+   opacity: 1;
+   border: solid 1px #8DFD1B ;
+   border-radius: 671px;
+   width: 99px;
+   height: 99px;
+   z-index: 1;
+  }
+  
+  .partners {
+    color: white;
+    margin-left: 572px;
+    width: 1440px;
+    font-size: 11px;
+    color: #8DFD1B;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .logoholders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: ;
+    grid-column-gap: 86px;
+    
+    margin-left: 53px;
+    width: 1180px;
+    margin-bottom: 200px;
+    
+    color: white;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .questions {
+    display: flex;
+    margin-left: 99px;
+  }
+  
+  .questions_left_logo {
+    display: inline-block;
+    width: 360px;
+    color: white;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 1px;
+    line-height: 14px;
+  }
+  
+  .asked {
+    color: #A8A8A8;
+  }
+  
+  .answer_list_bg {
+    width: 580px;
+    margin-left: 220px;
+    background-color: #222222;
+  }
+  
+  .answer_list {
+  color: white;
+  width: 514px;
+  margin-left: 31px;
+  margin-top: 24px;
+  font-family: FreeMono, monospace;
+    font-family: Garamond, serif;
+  letter-spacing: 0.1px;
+  line-height: 3.5;
+  font-weight: 100;
+  }
+  
+  .answer_list p{
+    line-height: 22px;
+  }
+  
+  .team_header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: ;
+    grid-column-gap: 255px;
+    margin-left: -100px;
+    color: white;
+    font-size: 79px;
+    text-transform: uppercase;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .team_header p {
+    margin-bottom: 0px;
+  }
+  
+  .authors {
+    margin-left: 200px;
+    margin-top: 129px;
+    text-transform: uppercase;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+   
+  }
+  
+  .author_card {
+    display: inline-block;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 100px;
+    color: white;
+    width: 320px;
+  }
+  
+  .author_card img {
+    height: 320px;
+    width: 320px;
+  }
+  
+  .author_name {
+    font-size: 21px;
+    margin-top: 19px;
+    text-transform: uppercase;
+  }
+  
+  .job_title {
+    font-size: 11px;
+    color: #8DFD1B;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-bot: 0px;
+  }
+  
+  .author_icons {
+    margin-top: 22px;
+    height: 36px;
+  }
+  
+  .author_icons img {
+    height: 36px;
+    width: 36px;
+  }
+  
+  .author_icon1 {
+    
+    margin-right: 12px;
+    margin-left: 0px;
+  }
+  
+  .author_icon2 {
+    margin-left: 0px;
+  }
+  
+  .author_about {
+    width: 238px;
+    margin-left: 41px;
+    font-size: 12px;
+  font-weight: 100;
+    line-height: 19.2px;
+    text-transform: none; 
+  }
+  
+  .discord_invitation {
+    margin-top: 230px;
+    color: white;
+    margin-left: 136px;
+    margin-bottom: 0px;
+  }
+  
+  .discord_join_text {
+    display: inline-block;
+    width: 352px;
+  }
+  
+  .join_our_text {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-transform: uppercase;
+    font-size: 51px;
+  }
+  
+  .discord_text {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-transform: uppercase;
+    font-size: 51px;
+    color: #8DFD1B;
+  }
+  
+  .discrod_join_description {
+    font-size: 16px;
+  font-weight: 100;
+    line-height: 19.2px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .discord_button {
+    background-color: #8DFD1B;
+    width: 213px;
+    height: 43px;
+    margin-top: 35px;
+    
+  }
+  
+  .discord_button_logo {
+    display: inline-block;
+    margin-left: 24px;
+  }
+  
+  .discord_button_logo img {
+     width: 35px;
+    height: 35px;
+    margin-top: 8px;
+  }
+  
+  .discord_button_text {
+    display: inline-block;
+    color: black;
+    vertical-align: top;
+    margin-left: 6px;
+    font-size: 20px;
+  }
+  
+  .discord_button_text p{
+    margin-top: 10px;
+  }
+  
+  .discord_ivnvent_image {
+    display: inline-block;
+    margin-left: 280px;
+  }
+  
+  .down_page {
+    margin-top: 118px;
+    color: white;
+    background-color: #42006A;
+    height: 338px;
+    
+  }
+  
+  .down_page_content {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .meta_rights {
+    display: inline-block;
+    margin-top: 103px;
+    margin-left: 140px;
+   
+  }
+  
+  .down_meta_logo {
+    margin-bottom: 0px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 34px;
+    margin-right: 0px;
+  }
+  
+  .down_meta_logo_rl{
+    font-family: ;
+    font-size: 12px;
+    margin-left: -5px;
+    
+  }
+  
+  .all_rights_reserved {
+  margin-top: 70.5px;
+  font-family: Courier New, monospace;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  
+  .down_list {
+    display: inline-block;
+    margin-top: 125px;
+    margin-left: 70px;
+  }
+  
+  .grid_down_list {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 60px);
+    grid-column-gap: 0px;
+    grid-rows-gap: 50px;
+  font-family: Courier New, monospace;
+    font-size: 16px;
+  
+  }
+  
+  .down_icons {
+  margin-left: 100px;
+    margin-top: -10px;
+  }
+  
+  .down_icon_image1 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  
+  }
+  
+  .down_icon_image2 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-left: 55px;
+  }
+  
+  .down_icon_image3 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-left: 110px;
+  }
+  
+  .down_icon_image4 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-left: 165px; 
+  }
+  
+  .down_icons img:hover {
+    outline: 1px solid red;
+    outline-offset: 0px;
+  }
