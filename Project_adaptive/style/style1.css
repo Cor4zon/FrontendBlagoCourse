@@ -60,7 +60,14 @@ h4{
     font-size: 46px;
 }
 
+
+.title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
 /* header  */
+
 header {
     background-color: #EAF2F5;
     margin-bottom: 103px;
@@ -240,8 +247,8 @@ strong {
 
 /* technology */
 
-.technology-title {
-    text-align: center;
+.technology{
+    margin-bottom: 84px;
 }
 
 .tech-info {
@@ -311,3 +318,191 @@ strong {
     background-color: #AF93FF;
 }
 
+
+/* benefits */
+
+.benefits {
+    margin-bottom: 87.5px;
+}
+
+.benefits-title {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.benefits-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 22%;
+    margin-left: 34px;
+    margin-bottom: 23px;
+    padding: 50px 35px 31px 35px;
+}
+
+.card-item:first-child,
+.card-item:nth-child(5) {
+    margin-left: 0;
+}
+
+@media (max-width: 889px) {
+    .benefits-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(145px, 200px));
+    gap: 24px;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    }
+    .card-item {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.card-item:last-child {
+    grid-column: span 3;
+}
+
+.cards-img {
+    margin-bottom: 18px;
+}
+
+.card-title {
+    max-width: 166px;
+    margin-bottom: 10px;
+}
+
+.card-title h3 {
+    font-size: 16px;
+}
+
+.card-description {
+    font-size: 13px;
+}
+
+/* how-learn  */
+
+.how-learn {
+    background-color: #EAF2F5;
+    padding-top: 55.5px;
+    padding-bottom: 90px;
+    margin-bottom: 91px;
+}
+
+.pre-title-how {
+    margin: 0 auto;
+    max-width: 642px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.video {
+    width: 583.76px;
+    height: 367.92px;
+    margin: 0 auto;
+}
+
+
+.video-player {
+    margin: 0 auto;
+    background: url('../img/pistures/macbook2.png') no-repeat 50% 50%;
+    width: 763px;
+    height: 443px;
+    background-size: 100%;
+    padding-top: 25.23px;
+    margin-bottom: 30px;
+}
+
+.how-learn-info {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 56px 53px;
+    margin-bottom: 26px;
+}
+
+.item-info {
+    width: 33.333%;
+    border-left: #EAF2F5 1px solid;
+    padding: 0 58px;
+    text-align: start;
+}
+
+.item-info:first-child {
+    border: none;
+}
+
+.item-info .title h3 {
+    font-size: 24px;
+    text-align: start;
+}
+
+.item-info .title {
+    margin-bottom: 19px;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 77px;
+    color: #38BFF2;
+}
+
+.button-learn {
+    max-width: 538px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 12px 14px;
+}
+
+.button-learn .button {
+    min-width: 249px;
+}
+
+.button-text {
+    margin-left: 24px;
+}
+
+/* help */
+
+.help {
+    padding-bottom: 89px;
+}
+
+.boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-auto-flow: dense;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 65px;
+}
+
+.box-text {
+    grid-column: span 2;
+    padding: 54px 81px 49px 100px;
+    line-height: 25px;
+}
+
+.box .title h3 {
+    text-align: start;
+    font-size: 32px;
+}
