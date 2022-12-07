@@ -9,6 +9,7 @@ body {
     font-family: 'Gilroy', sans-serif;
     color: #22253B;
     font-size: 16px;
+    background-color: #F3F3F3;
 }
 
 .container {
@@ -70,7 +71,6 @@ h4{
 
 header {
     background-color: #EAF2F5;
-    margin-bottom: 103px;
 }
 
 .navigate{
@@ -182,7 +182,7 @@ header {
 from{height: 503.5px;}
 to{height: 0;}
 }
-    
+
 .show{
     animation-name: shows;
     animation-duration: 1s;
@@ -191,6 +191,17 @@ to{height: 0;}
 @keyframes shows{
     from{height: 0;}
     to{height: 503.5px;}
+}
+
+@media (max-width: 859px) {
+    @keyframes hiddenses{
+        from{height: 867.5px;}
+        to{height: 0;}
+        }
+    @keyframes shows{
+            from{height: 0;}
+            to{height: 867.5px;}
+    }
 }
 
 /* intro  */
@@ -248,7 +259,8 @@ strong {
 /* technology */
 
 .technology{
-    margin-bottom: 84px;
+    background-color: #fff;
+    padding-top: 103px;
 }
 
 .tech-info {
@@ -322,7 +334,9 @@ strong {
 /* benefits */
 
 .benefits {
-    margin-bottom: 87.5px;
+    background-color: #fff;
+    padding-top: 84px;
+    border-radius: 0 0 48px 48px;
 }
 
 .benefits-title {
@@ -362,6 +376,7 @@ strong {
     justify-items: center;
     align-content: center;
     justify-content: center;
+    padding-bottom: 24px;
     }
     .card-item {
         width: 100%;
@@ -396,7 +411,7 @@ strong {
     background-color: #EAF2F5;
     padding-top: 55.5px;
     padding-bottom: 90px;
-    margin-bottom: 91px;
+    border-radius: 0 0 48px 48px;
 }
 
 .pre-title-how {
@@ -407,8 +422,9 @@ strong {
 }
 
 .video {
-    width: 583.76px;
-    height: 367.92px;
+    width: 76.5%;
+    height: 100%;
+    max-height: 367.92px;
     margin: 0 auto;
 }
 
@@ -416,11 +432,14 @@ strong {
 .video-player {
     margin: 0 auto;
     background: url('../img/pistures/macbook2.png') no-repeat 50% 50%;
-    width: 763px;
+    width: 100%;
+    max-width: 763px;
     height: 443px;
     background-size: 100%;
     padding-top: 25.23px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .how-learn-info {
@@ -479,6 +498,9 @@ strong {
 
 .help {
     padding-bottom: 89px;
+    border-radius: 80px;
+    padding-top: 91px;
+    background-color: #fff;
 }
 
 .boxs {
@@ -505,4 +527,228 @@ strong {
 .box .title h3 {
     text-align: start;
     font-size: 32px;
+}
+
+/* price */
+
+.price {
+    background-color: #F3F3F3;
+    padding: 90px 0 63px;
+}
+
+.price-terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 41px;
+}
+
+
+.term {
+    display: flex;
+    align-items: center;
+    min-width: 247px;
+    max-width: 390px;
+    margin-left: 50px;
+}
+
+@media (max-width: 880px) {
+    .term {
+        flex-direction: column;
+        max-width: 280px;
+        margin-left: 15px;
+    }
+    
+
+    .term img {
+        margin-bottom: 12px;
+    }
+}
+
+.term:first-child {
+    margin: 0;
+}
+
+.term:nth-child(2) {
+    width: 247px;
+}
+
+.term-text {
+    display: block;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 36px 40px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border: none;
+    margin: 0;
+    border-spacing: 0;
+} 
+
+thead {
+    font-size: 16px;
+    font-weight: 700;
+    color: #38BFF2;
+    background-color: none;
+}
+
+td {
+    height: 57px;
+    padding: 17px 19px;
+}
+
+.tr td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.tr td:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+tbody {
+    font-size: 20px;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color:#F3F3F3;
+}
+
+tfoot {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.explanation {
+    color:#8E8E8E;
+    margin-left: 45px;
+    margin-bottom: 33px;
+}
+
+.conditions-education {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d2d7da;
+    padding: 65px 51px;
+}
+
+.conditions-education .term-text {
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.conditions-education .button {
+    min-width: 311px;
+}
+
+/* footer  */
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 0 47px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    min-width: 258px;
+    margin-bottom: 40px;
+}
+
+.logo-text {
+    display: block;
+    width: 151px;
+}
+
+.links-social {
+    display: flex;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34.87px;
+    height: 34.87px;
+    margin-right: 16.11px;
+    border-radius: 50%;
+    background-color: #22253B;
+}
+
+.social-link:last-child {
+    margin-right: 0;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 447px;
+    width: 100%;
+}
+
+
+.footer-nav {
+    width: 287px;
+}
+
+.footer-nav a{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.footer-nav a:last-child{
+    margin-bottom: 0;
+}
+
+.phone-number a{
+    color: #38BFF2;
+}
+
+.email {
+    margin-bottom: 65px;
+}
+
+.reg-number {
+    font-size: 13px;
+    color: #8E8E8E;
+}
+
+.site-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0 32px;
+    color: #8E8E8E;
+}
+
+.site-info p{
+    display: block;
+    width: 270px;
+}
+
+.site-info-link {
+    display: flex;
+    justify-content: space-between;
+    max-width: 538px;
+    width: 100%;
+}
+
+.site-info-link a{
+    color: inherit;
 }
