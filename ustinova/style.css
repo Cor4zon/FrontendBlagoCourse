@@ -157,14 +157,19 @@ header {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    justify-items: center;
-    align-items: center;
+    /* justify-items: center; */
+    /* align-items: center; */
     column-gap: 40px;
     row-gap: 40px;
 }
 
 .horizontal_photo {
+    justify-self: right;
     
+}
+
+#bottles {
+    align-self: end;
 }
 
 .vertical_photo {
@@ -172,6 +177,7 @@ header {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    align-self: center;
 }
 
 .awards {
@@ -188,6 +194,7 @@ header {
     font-size: 47px;
     width: 50%;
     margin-left: 56px;
+    margin-top: -20px;
 }
 
 .award_description {
